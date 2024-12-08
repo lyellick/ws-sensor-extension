@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Water Softener Salt Monitor",
-    "description": "This Chrome extension continuously monitors and updates an icon based on the status of a sensor system. It periodically fetches sensor data from an API and updates the extension's icon to reflect the current sensor level. The icon represents different states based on the salt level detected by the sensor: high, medium, or low.",
+    "description": "Monitors salt levels and updates the extension icon in real-time based on API data (high, medium, low, or error status).",
     "version": "1.0",
     "permissions": ["alarms", "activeTab", "storage"],
     "host_permissions": ["http://ws-sensor.yellick.me:5000/*"],
