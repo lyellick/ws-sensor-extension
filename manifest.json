@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "WS Sensor Monitor",
+    "version": "1.0",
+    "permissions": ["alarms", "activeTab", "storage"],
+    "host_permissions": ["http://ws-sensor.yellick.me:5000/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "icons/icon-high.png"
+    },
+    "icons": {
+      "16": "icons/icon-high.png",
+      "48": "icons/icon-high.png",
+      "128": "icons/icon-high.png"
+    }
+  }
+  
