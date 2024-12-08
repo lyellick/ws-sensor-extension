@@ -2,7 +2,7 @@
 
 Effective Date: [Insert Date]
 
-Your privacy is important to us. This privacy policy explains how we collect, use, and protect your data when you use our Chrome extension, [Extension Name].
+Your privacy is important to us. This privacy policy explains how we collect, use, and protect your data when you use our Chrome extension.
 
 ## Information We Collect
 
