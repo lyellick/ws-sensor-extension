@@ -3,7 +3,7 @@
     "name": "Water Softener Salt Monitor",
     "description": "Monitors salt levels and updates the extension icon in real-time based on API data (high, medium, low, or error status).",
     "version": "1.0",
-    "permissions": ["alarms", "activeTab", "storage"],
+    "permissions": ["alarms", "activeTab"],
     "host_permissions": ["http://ws-sensor.yellick.me:5000/*"],
     "background": {
       "service_worker": "background.js"
