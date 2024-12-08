@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
     "name": "WS Sensor Monitor",
+    "description": "This Chrome extension continuously monitors and updates an icon based on the status of a sensor system. It periodically fetches sensor data from an API and updates the extension's icon to reflect the current sensor level. The icon represents different states based on the salt level detected by the sensor: high, medium, or low.",
     "version": "1.0",
     "permissions": ["alarms", "activeTab", "storage"],
     "host_permissions": ["http://ws-sensor.yellick.me:5000/*"],
